@@ -1,6 +1,6 @@
 {
-  "name": "@peng-polaris/expo-aliyun-oss",
-  "version": "0.1.0",
+  "name": "@peng-oss/expo-aliyun-oss",
+  "version": "0.1.1",
   "description": "expo package for alioss sdk",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -28,16 +28,18 @@
   "author": "peng-oss <530912476@qq.com> ()",
   "license": "MIT",
   "homepage": "https://github.com/peng-oss/peng-polaris.git#readme",
-  "dependencies": {},
   "devDependencies": {
-    "@types/react": "~18.3.12",
-    "expo-module-scripts": "^4.0.3",
-    "expo": "~52.0.0",
-    "react-native": "0.76.0"
+    "@types/react": "~19.0.12",
+    "expo": "~52.0.40",
+    "expo-module-scripts": "^4.0.4",
+    "react-native": "0.78.1"
   },
   "peerDependencies": {
     "expo": "*",
     "react": "*",
     "react-native": "*"
+  },
+  "dependencies": {
+    "expo-build-properties": "^0.13.2"
   }
 }

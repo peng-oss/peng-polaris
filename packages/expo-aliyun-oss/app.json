@@ -1,0 +1,27 @@
+{
+    "expo": {
+      "plugins": [
+        [
+          "expo-build-properties",
+          {
+            "android": {
+              "extraMavenRepos": [
+                "https://maven.aliyun.com/repository/public"
+              ],
+              "extraProguardRules": [
+                "-keep class com.alibaba.sdk.android.** { *; }"
+              ]
+            },
+            "ios": {
+              "extraPods": [
+                {
+                  "name": "AliyunOSSiOS",
+                  "version": "2.10.18"
+                }
+              ]
+            }
+          }
+        ]
+      ]
+    }
+  }
