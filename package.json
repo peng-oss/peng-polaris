@@ -1,0 +1,29 @@
+{
+  "name": "peng-polaris",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.6.5",
+  "devDependencies": {
+    "@expo/metro-config": "^0.19.12",
+    "@rspack/cli": "^1.2.8",
+    "@rspack/core": "^1.2.8",
+    "@swc/core": "^1.11.11",
+    "@types/react": "^19.0.12",
+    "@types/react-native": "^0.73.0",
+    "eslint": "^8",
+    "expo": "^49",
+    "metro-config": "^0.82.0",
+    "prettier": "^2",
+    "react": "^18",
+    "react-native": "^0.72",
+    "turbo": "^2.4.4",
+    "typescript": "^5.8.2"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "@peng-polaris/ui",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "build": "rspack build && tsc --emitDeclarationOnly",
+   "dev": "rspack build --watch & tsc --emitDeclarationOnly --watch",
+    "lint": "eslint src --ext .ts,.tsx"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.72.10"
+  },
+  "devDependencies": {
+    "@types/react": "~18.2.14",
+    "@types/react-native": "~0.72.8"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/main.js",
+      "require": "./dist/main.js"
+    }
+  }
+}
